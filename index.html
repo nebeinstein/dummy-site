@@ -19,8 +19,19 @@
             font-style: normal;
         }
 
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
         body {
-            background-color: black;
+            position: relative;
+            padding-bottom: 6rem;
+            min-height: 100%;
+            /*background-color: black;*/
+            background-image: url("https://lh3.googleusercontent.com/-IjSEYsHESdk/WbVMops7vcI/AAAAAAAAAPU/P51ZG_Mb1A8h9wGr-TdxLLLUENyybVZygCL0BGAYYCw/h480/2017-09-10.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
         }
 
         .hpfont {
@@ -55,6 +66,16 @@
 
         table {
             margin: auto auto;
+        }
+
+        #footer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            /*background-color: #efefef;*/
+            text-align: center;
         }
     </style>
 </head>
@@ -126,15 +147,11 @@
                         <td>10-6</td>
                     </tr>
                 </table>
-                <br>
-                <br>
-                <br>
-                <h2 class="hpfont subHeader centered bottom">Full Website Coming Soon!</h2>
             </div>
         </div>
     </div>
     <div id="footer">
-        
+        <h2 class="hpfont subHeader centered bottom">Full Website Coming Soon!</h2>
     </div>
 </body>
 </html>
